@@ -1,2 +1,3 @@
 # Monticello
-Project with implementation of site functionality using native js
+
+> Project with implementation of site functionality using native js.

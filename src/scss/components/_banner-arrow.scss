@@ -1,0 +1,28 @@
+.banner__arrow {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  &__link {
+    position: absolute;
+    bottom: 50px;
+    min-width: 40px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    font-size: 15px;
+    border: 1px solid var(--c-white);
+    transition: var(--t-normal);
+    color: var(--c-white);
+    border-radius: 50%;
+    z-index: 20;
+
+    &:hover {
+      border-color: var(--c-blue-dark);
+      color: var(--c-blue-dark);
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.navigation {
+  &__list {
+    align-items: center;
+    display: flex;
+    gap: 60px;
+  }
+
+  &__link {
+    transition: color var(--t-normal);
+    color: var(--c-white);
+    align-items: center;
+    display: flex;
+    padding: 5px;
+
+    &:hover {
+      & > .navigation__circle {
+        background-color: var(--c-white);
+        border-color: var(--c-white);
+      }
+    }
+  }
+
+  &__circle {
+    transition: background-color var(--t-normal);
+    border: 1px solid var(--c-white);
+    background-color: transparent;
+    margin-right: 15px;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+  }
+}

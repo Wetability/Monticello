@@ -1,0 +1,18 @@
+.banner {
+  background: url(../../../src/assets/slider-background.png) lightgray 50% /
+    cover no-repeat;
+  opacity: 0.6;
+  position: relative;
+  min-height: 100vh;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(243deg, #7e5aff 16.9%, #55b7ff 83.27%);
+    mix-blend-mode: multiply;
+  }
+}

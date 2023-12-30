@@ -1,0 +1,17 @@
+{
+  "name": "monticello",
+  "version": "1.0.0",
+  "description": "modular work on module 2",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch src/scss/index.scss src/index.css --style compressed"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "scss",
+    "js"
+  ],
+  "author": "Podeiko Volodymyr volodymyr.podeiko@gmail.com",
+  "license": "ISC"
+}
