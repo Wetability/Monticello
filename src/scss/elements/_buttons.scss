@@ -1,0 +1,27 @@
+.button {
+  border: 1px solid var(--c-blue-dark);
+  transition: var(--t-normal);
+
+  &:hover {
+    background: var(--c-blue-dark);
+    color: var(--c-white);
+  }
+}
+
+.introduction__list-button {
+  padding: 17px 41px;
+  color: var(--c-black);
+  font-family: var(--f-montserrat);
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+// .introduction__list-button-text {
+
+//   transition: var(--t-normal);
+
+//   &:hover {
+//     color: var(--c-white);
+//   }
+// }
