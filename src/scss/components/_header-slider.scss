@@ -15,6 +15,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  gap: 20px;
 
   &__title {
     font-family: var(--f-montserrat);
@@ -44,8 +45,7 @@
   padding-right: 50px;
   display: flex;
   height: 100%;
-  gap: 30px;
-  right: 0;
+  gap: 50px;
   bottom: -40px !important;
 }
 
