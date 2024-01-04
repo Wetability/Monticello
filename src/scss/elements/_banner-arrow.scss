@@ -1,9 +1,11 @@
-.banner__arrow {
-  position: relative;
-  display: flex;
-  flex-direction: column;
+.banner {
+  &__arrow {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
 
-  &__link {
+  &__arrow-link {
     position: absolute;
     bottom: 50px;
     min-width: 40px;

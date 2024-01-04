@@ -50,9 +50,17 @@
     gap: 10px;
   }
 
+  &__address {
+    color: var(--c-black);
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+  }
+
   &__container-rightside {
     display: flex;
     gap: 70px;
     position: relative;
+    margin-bottom: 150px;
   }
 }

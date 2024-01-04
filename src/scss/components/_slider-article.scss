@@ -1,0 +1,48 @@
+.article {
+  &__title {
+    display: flex;
+    font-family: var(--f-montserrat);
+    font-size: 22px;
+    font-weight: 700;
+    margin: 25px 20px 0;
+  }
+
+  &__text {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 15px 20px 0;
+  }
+
+  &__author {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    gap: 20px;
+    align-items: center;
+  }
+
+  &__author-picture-arja {
+    background: url(../../../src/assets/Arja-Brun.png) lightgray 50% / cover
+      no-repeat;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+  &__author-picture-dominic {
+    background: url(../../../src/assets/Dominic-Freeman.png) lightgray 50% /
+      cover no-repeat;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+  &__author-picture-alice {
+    background: url(../../../src/assets/Alice-Ward.png) lightgray 50% / cover
+      no-repeat;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+}

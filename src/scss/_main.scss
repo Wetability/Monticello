@@ -6,6 +6,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--c-white);
   font-family: var(--f-open-sans);

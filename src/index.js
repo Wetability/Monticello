@@ -1,3 +1,6 @@
-import headerSwiper from "./scripts/header-slider.js";
+// * Imports
+import bannerSwiper from "./scripts/banner-slider.js";
+import latestNewsSlider from "./scripts/latest-news-slider.js";
 
-headerSwiper();
+bannerSwiper();
+latestNewsSlider();
