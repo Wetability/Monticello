@@ -17,11 +17,12 @@
   margin-bottom: 60px;
 }
 
-// .introduction__list-button-text {
-
-//   transition: var(--t-normal);
-
-//   &:hover {
-//     color: var(--c-white);
-//   }
-// }
+.gallery__button {
+  text-align: center;
+  font-family: var(--f-montserrat);
+  font-size: 14px;
+  font-weight: 400;
+  align-self: center;
+  padding: 16px 57px;
+  margin-bottom: 150px;
+}
