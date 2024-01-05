@@ -26,3 +26,13 @@
   padding: 16px 57px;
   margin-bottom: 150px;
 }
+
+.form__button {
+  padding: 12px 34px;
+  color: var(--c-black);
+  font-family: var(--f-montserrat);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  align-self: flex-end;
+}
