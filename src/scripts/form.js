@@ -77,17 +77,13 @@ function feedback() {
 
     const userName = form.get("userName");
 
-    if (!validationName(userName, "User name", "js-form-name-error")) {
+    if (!validationName(userName, "Name", "js-form-name-error")) {
       return;
     }
 
     const email = form.get("email");
 
-    if (!validationName(email, "email", "js-form-email-error")) {
-      return;
-    }
-
-    if (!validationEmail(email, "email", "js-form-email-error")) {
+    if (!validationEmail(email, "Email", "js-form-email-error")) {
       return;
     }
 
@@ -95,9 +91,7 @@ function feedback() {
       userName,
       email,
     };
-
     const dataToString = JSON.stringify(data);
-
     localStorage.setItem("user", dataToString);
   });
 
@@ -105,7 +99,6 @@ function feedback() {
 
   if (user) {
     const data = JSON.parse(user);
-    console.log("data: ", data);
 
     const DOMUserName = document.getElementById("js-form-name");
     const DOMEmail = document.getElementById("js-form-email");

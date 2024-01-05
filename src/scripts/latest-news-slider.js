@@ -24,7 +24,6 @@ function latestNewsSlider() {
   });
 
   const prevButtons = document.getElementsByClassName("swiper-button-prev");
-
   const nextButtons = document.getElementsByClassName("swiper-button-next");
 
   // Function to show buttons on swiper

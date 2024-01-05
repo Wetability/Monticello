@@ -1,0 +1,40 @@
+.footer {
+  background: url(../../../src/assets/footer-background.png) lightgray 0px 0px /
+    100% 95.446% no-repeat;
+  position: relative;
+  z-index: 2;
+  height: 100vh;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(251deg, #7e5aff -2.19%, #55b7ff 103.21%);
+    mix-blend-mode: multiply;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    z-index: 10;
+    height: 100vh;
+  }
+
+  &__credits {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+  }
+
+  &__copyrights {
+    color: var(--c-white);
+    font-family: var(--f-montserrat);
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
