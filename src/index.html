@@ -59,6 +59,21 @@
             d="M21.333 10.667c0 2.938-2.396 5.333-5.333 5.333s-5.333-2.396-5.333-5.333c0-2.938 2.396-5.333 5.333-5.333s5.333 2.396 5.333 5.333zM26.667 10.667c0-5.896-4.771-10.667-10.667-10.667s-10.667 4.771-10.667 10.667c0 1.271 0.146 2.583 0.688 3.729l7.604 16.125c0.417 0.917 1.375 1.479 2.375 1.479s1.958-0.562 2.396-1.479l7.583-16.125c0.542-1.146 0.688-2.458 0.688-3.729z"
           ></path>
         </symbol>
+        <symbol id="icon-phone" viewBox="0 0 32 32">
+          <path
+            d="M23.467 19.2c-2.133 2.133-2.133 4.267-4.267 4.267s-4.267-2.133-6.4-4.267-4.267-4.267-4.267-6.4 2.133-2.133 4.267-4.267-4.267-8.533-6.4-8.533-6.4 6.4-6.4 6.4c0 4.267 4.383 12.917 8.533 17.067s12.8 8.533 17.067 8.533c0 0 6.4-4.267 6.4-6.4s-6.4-8.533-8.533-6.4z"
+          ></path>
+        </symbol>
+        <symbol id="icon-clock" viewBox="0 0 32 32">
+          <path
+            d="M20.586 23.414l-6.586-6.586v-8.828h4v7.172l5.414 5.414zM16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 28c-6.627 0-12-5.373-12-12s5.373-12 12-12c6.627 0 12 5.373 12 12s-5.373 12-12 12z"
+          ></path>
+        </symbol>
+        <symbol id="icon-drawer2" viewBox="0 0 32 32">
+          <path
+            d="M31.781 15.375l-8-10c-0.19-0.237-0.477-0.375-0.781-0.375h-14c-0.304 0-0.591 0.138-0.781 0.375l-8 10c-0.142 0.177-0.219 0.398-0.219 0.625v9c0 1.105 0.895 2 2 2h28c1.105 0 2-0.895 2-2v-9c0-0.227-0.077-0.447-0.219-0.625zM30 17h-7l-4 4h-6l-4-4h-7v-0.649l7.481-9.351h13.039l7.481 9.351v0.649z"
+          ></path>
+        </symbol>
       </defs>
     </svg>
 
@@ -431,6 +446,8 @@
             </div>
           </div>
         </section>
+
+        <!-- * Gallery section -->
         <section class="gallery">
           <div class="wrapper gallery__wrapper">
             <div class="line line__blue-gallery"></div>
@@ -455,6 +472,72 @@
             <button type="button" class="button gallery__button">
               <span>SEE MORE</span>
             </button>
+          </div>
+        </section>
+
+        <!-- * Map section -->
+        <section class="map-and-form">
+          <div class="map__image">
+            <img src="./assets/map.png" alt="map-image" />
+          </div>
+          <div class="form">
+            <div class="line line__blue-form"></div>
+            <h3 class="form__main-title">GET IN TOUCH</h3>
+            <div class="form__container">
+              <div class="form__info">
+                <div class="form__info-item">
+                  <svg class="icon icon-form">
+                    <use xlink:href="#icon-location"></use>
+                  </svg>
+                  <p class="form__info-description">
+                    91 Nolan Extensions Suite 670
+                  </p>
+                </div>
+                <div class="form__info-item">
+                  <svg class="icon icon-form">
+                    <use xlink:href="#icon-phone"></use>
+                  </svg>
+                  <p class="form__info-description">+001 356-868-2454</p>
+                </div>
+                <div class="form__info-item">
+                  <svg class="icon icon-form">
+                    <use xlink:href="#icon-drawer2"></use>
+                  </svg>
+                  <p class="form__info-description">montichello@service.com</p>
+                </div>
+                <div class="form__info-item">
+                  <svg class="icon icon-form">
+                    <use xlink:href="#icon-clock"></use>
+                  </svg>
+                  <p class="form__info-description">From 07:05AM to 19:30PM</p>
+                </div>
+              </div>
+              <form method="post" id="js-form-feedback" class="form__feedback">
+                <div class="form__feedback-item">
+                  <input
+                    type="text"
+                    name="userName"
+                    placeholder="Contact name"
+                    id="js-form-name"
+                    class="form__feedback-name"
+                  />
+                  <div class="form__error" id="js-form-name-error"></div>
+                </div>
+                <div class="form__feedback-item">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    id="js-form-email"
+                    class="form__feedback-email"
+                  />
+                  <div class="form__error" id="js-form-email-error"></div>
+                </div>
+                <button type="submit" class="button form__button">
+                  <span>SUBMIT</span>
+                </button>
+              </form>
+            </div>
           </div>
         </section>
       </main>
