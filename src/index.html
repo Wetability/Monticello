@@ -480,10 +480,13 @@
           <div class="map__image">
             <img src="./assets/map.png" alt="map-image" />
           </div>
+
+          <!-- * Form card -->
           <div class="form">
             <div class="line line__blue-form"></div>
             <h3 class="form__main-title">GET IN TOUCH</h3>
             <div class="form__container">
+              <!-- * Contacts -->
               <div class="form__info">
                 <div class="form__info-item">
                   <svg class="icon icon-form">
@@ -512,24 +515,30 @@
                   <p class="form__info-description">From 07:05AM to 19:30PM</p>
                 </div>
               </div>
+
+              <!-- * Feedback form-->
               <form method="post" id="js-form-feedback" class="form__feedback">
                 <div class="form__feedback-item">
                   <input
+                    required
                     type="text"
                     name="userName"
                     placeholder="Contact name"
                     id="js-form-name"
                     class="form__feedback-name"
+                    autocomplete="userName"
                   />
                   <div class="form__error" id="js-form-name-error"></div>
                 </div>
                 <div class="form__feedback-item">
                   <input
+                    required
                     type="email"
                     name="email"
                     placeholder="Email"
                     id="js-form-email"
                     class="form__feedback-email"
+                    autocomplete="email"
                   />
                   <div class="form__error" id="js-form-email-error"></div>
                 </div>
@@ -541,6 +550,61 @@
           </div>
         </section>
       </main>
+
+      <!-- * Footer -->
+      <footer class="footer">
+        <div class="wrapper footer__wrapper">
+          <!-- Credits -->
+          <div class="footer__credits">
+            <a href="#" class="logo" title="Home page">
+              <img src="./assets/logo.png" alt="logo" />
+            </a>
+            <span class="footer__copyrights"
+              >Copyrights © 2020 Montichello</span
+            >
+          </div>
+
+          <!-- Social -->
+          <ul class="social">
+            <li class="social__item">
+              <a
+                href="https://www.facebook.com/"
+                class="social__link"
+                target="_blank"
+                title="Facebook"
+              >
+                <svg class="icon">
+                  <use xlink:href="#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a
+                href="https://www.twitter.com/"
+                class="social__link"
+                target="_blank"
+                title="Twitter"
+              >
+                <svg class="icon">
+                  <use xlink:href="#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a
+                href="https://www.Instagram.com/"
+                class="social__link"
+                target="_blank"
+                title="Instagram"
+              >
+                <svg class="icon">
+                  <use xlink:href="#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
 
     <!-- * Scripts -->
