@@ -218,10 +218,10 @@
           </div>
         </div>
 
-        <!-- What we do section -->
+        <!-- * What we do section -->
         <section class="introduction" id="introduction">
           <div class="wrapper introduction__wrapper">
-            <div class="line line__blue-introduction"></div>
+            <div class="line line__blue"></div>
             <h3 class="introduction__main-title">WHAT WE DO</h3>
 
             <!-- First container -->
@@ -292,7 +292,7 @@
         <!-- * Latest news section -->
         <section class="latest-news">
           <div class="wrapper latest-news__wrapper">
-            <div class="line line__white-latest-news"></div>
+            <div class="line line__white"></div>
             <h3 class="latest-news__main-title">LATEST NEWS</h3>
 
             <!-- * Swiper -->
@@ -440,20 +440,20 @@
               <div
                 class="swiper-pagination latest-news__swiper-pagination"
               ></div>
-              <div
-                class="swiper-button-prev latest-news__swiper-button-prev"
-              ></div>
-              <div
-                class="swiper-button-next latest-news__swiper-button-next"
-              ></div>
             </div>
+            <div
+              class="swiper-button-prev latest-news__swiper-button-prev"
+            ></div>
+            <div
+              class="swiper-button-next latest-news__swiper-button-next"
+            ></div>
           </div>
         </section>
 
         <!-- * Gallery section -->
         <section class="gallery">
           <div class="wrapper gallery__wrapper">
-            <div class="line line__blue-gallery"></div>
+            <div class="line line__blue"></div>
             <h3 class="gallery__main-title">GALLERY</h3>
             <div class="gallery__grid-container">
               <div class="gallery__grid-item">
@@ -480,13 +480,20 @@
 
         <!-- * Map section -->
         <section class="map-and-form">
-          <div class="map__image">
-            <img src="./assets/map.png" alt="map-image" />
-          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.5229309181136!2d-80.32617627116393!3d26.147093699999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9a722e0abe87b%3A0x4b23f6226036ba2f!2sNolan%20Vincent%20Salon%20Studio!5e0!3m2!1suk!2sua!4v1704559683691!5m2!1suk!2sua"
+            width="100%"
+            height="750"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="map"
+          ></iframe>
 
           <!-- * Form card -->
           <div class="form">
-            <div class="line line__blue-form"></div>
+            <div class="line line__blue"></div>
             <h3 class="form__main-title">GET IN TOUCH</h3>
             <div class="form__container">
               <!-- * Contacts -->
@@ -495,27 +502,39 @@
                   <svg class="icon icon-form">
                     <use xlink:href="#icon-location"></use>
                   </svg>
-                  <p class="form__info-description">
+                  <a
+                    href="https://maps.app.goo.gl/NaiMcAo1FS2qAur86"
+                    target="_blank"
+                    class="form__info-description"
+                  >
                     91 Nolan Extensions Suite 670
-                  </p>
+                  </a>
                 </div>
                 <div class="form__info-item">
                   <svg class="icon icon-form">
                     <use xlink:href="#icon-phone"></use>
                   </svg>
-                  <p class="form__info-description">+001 356-868-2454</p>
+                  <a href="tel: +0013568682454" class="form__info-description"
+                    >+001 356-868-2454</a
+                  >
                 </div>
                 <div class="form__info-item">
                   <svg class="icon icon-form">
                     <use xlink:href="#icon-drawer2"></use>
                   </svg>
-                  <p class="form__info-description">montichello@service.com</p>
+                  <a
+                    href="mailto: montichello@service.com"
+                    class="form__info-description"
+                    >montichello@service.com</a
+                  >
                 </div>
                 <div class="form__info-item">
                   <svg class="icon icon-form">
                     <use xlink:href="#icon-clock"></use>
                   </svg>
-                  <p class="form__info-description">From 07:05AM to 19:30PM</p>
+                  <time datetime="" class="form__info-description"
+                    >From 07:05AM to 19:30PM</time
+                  >
                 </div>
               </div>
 
