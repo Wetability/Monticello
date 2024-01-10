@@ -6,7 +6,7 @@
   min-height: 100vh;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     right: 0;
@@ -20,6 +20,7 @@
   &__wrapper {
     display: flex;
     flex-direction: column;
+    padding-top: 120px;
   }
 
   &__main-title {
@@ -51,5 +52,15 @@
     display: flex;
     gap: 30px;
     bottom: 0 !important;
+  }
+
+  div.swiper-button-prev {
+    color: white;
+    left: 100px;
+  }
+
+  div.swiper-button-next {
+    color: white;
+    right: 100px;
   }
 }

@@ -15,29 +15,30 @@ const validationName = (value, name, id) => {
   return true;
 };
 
+const validDomains = [
+  "gmail.com",
+  "yahoo.com",
+  "outlook.com",
+  "hotmail.com",
+  "aol.com",
+  "icloud.com",
+  "mail.com",
+  "protonmail.com",
+  "zoho.com",
+  "gmx.com",
+  "inbox.com",
+  "fastmail.com",
+  "hushmail.com",
+  "lavabit.com",
+  "tutanota.com",
+  "startmail.com",
+  "riseup.net",
+  "runbox.com",
+  "cock.li",
+];
+
 const validationEmail = (value, name, id) => {
   const DOMError = document.getElementById(id);
-  const validDomains = [
-    "gmail.com",
-    "yahoo.com",
-    "outlook.com",
-    "hotmail.com",
-    "aol.com",
-    "icloud.com",
-    "mail.com",
-    "protonmail.com",
-    "zoho.com",
-    "gmx.com",
-    "inbox.com",
-    "fastmail.com",
-    "hushmail.com",
-    "lavabit.com",
-    "tutanota.com",
-    "startmail.com",
-    "riseup.net",
-    "runbox.com",
-    "cock.li",
-  ];
 
   if (!DOMError) {
     return false;

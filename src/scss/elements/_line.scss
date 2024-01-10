@@ -5,23 +5,11 @@
   flex-direction: column;
   align-self: center;
 
-  &__blue-introduction {
-    margin-top: 100px;
+  &__blue {
     background: var(--c-blue-dark);
   }
 
-  &__white-latest-news {
-    margin-top: 120px;
+  &__white {
     background: var(--c-white);
-  }
-
-  &__blue-gallery {
-    margin-top: 150px;
-    background: var(--c-blue-dark);
-  }
-
-  &__blue-form {
-    margin-top: 60px;
-    background: var(--c-blue-dark);
   }
 }
