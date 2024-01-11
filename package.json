@@ -13,5 +13,8 @@
     "js"
   ],
   "author": "Podeiko Volodymyr volodymyr.podeiko@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.7"
+  }
 }
